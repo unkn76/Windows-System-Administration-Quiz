@@ -22,9 +22,18 @@ function showScreen(name){Object.entries(screens).forEach(([k,el])=>el.hidden=(k
 function readSettingsFromUI(){state.settings.category=els.categorySelect.value;state.settings.difficulty=els.difficultySelect.value;state.settings.shuffle=els.shuffleToggle.checked;state.settings.immediateFeedback=els.feedbackToggle.checked;state.settings.minutes=Number(els.timerMinutes.value)||10;state.settings.timerMode=els.timerMode.value}
 function startQuiz(){state.current=0;state.selections={};applyFilters();applyShuffle();if(state.questions.length===0){alert('No questions match your filters.');return}initTimer();renderQuestion();startTicking();showScreen('quiz')}
 function saveTheme(t){localStorage.setItem('quiz-theme',t)}function loadTheme(){const t=localStorage.getItem('quiz-theme')||'light';document.documentElement.setAttribute('data-theme',t);state.settings.theme=t}function toggleTheme(){const next=state.settings.theme==='light'?'dark':'light';document.documentElement.setAttribute('data-theme',next);state.settings.theme=next;saveTheme(next)}
+function resetQuizRuntime() {
+  clearInterval(state.timer.interval);
+  state.current = 0;
+  state.selections = {};
+  state.timer = { mode: 'none', perQuestionMs: 0, totalMs: 0, remainingMs: 0, interval: null };
+}
 document.addEventListener('DOMContentLoaded',async()=>{loadTheme();await loadBank();computeCategories();els.timerMode.value='none';els.timerMinutes.value='10';els.shuffleToggle.checked=true;els.feedbackToggle.checked=false;});
 els.themeToggle.addEventListener('click',toggleTheme);
 els.startBtn.addEventListener('click',()=>{readSettingsFromUI();startQuiz()});
 els.backBtn.addEventListener('click',prevQuestion);
 els.nextBtn.addEventListener('click',()=>nextQuestion(false));
 els.submitBtn.addEventListener('click',submitQuiz);
+els.restartBtn.addEventListener('click', () => {
+  resetQuizRuntime();
+  startQuiz();
