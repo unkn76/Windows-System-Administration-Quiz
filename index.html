@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Windows SysAdmin Quiz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="card" role="main">
+    <header class="header">
+      <h1>Windows System Administration Quiz</h1>
+      <div class="header-actions">
+        <button id="themeToggle" class="ghost" aria-label="Toggle dark mode">🌓</button>
+        <a class="secondary" href="questions.json" download>Download questions.json</a>
+      </div>
+    </header>
+
+    <section id="screenStart">
+      <p class="muted">Filter by category/difficulty (optional), then Start.</p>
+      <div class="grid">
+        <label class="field"><span>Category</span><select id="categorySelect"><option value="">Any</option></select></label>
+        <label class="field"><span>Difficulty</span><select id="difficultySelect"><option value="">Any</option><option value="basic">Basic</option><option value="intermediate">Intermediate</option><option value="advanced">Advanced</option></select></label>
+        <label class="field"><span>Timer Mode</span><select id="timerMode"><option value="none">No timer</option><option value="quiz">Whole quiz</option><option value="perQuestion">Per question</option></select></label>
+        <label class="field"><span>Minutes (if timed)</span><input id="timerMinutes" type="number" min="1" max="999" value="10" /></label>
+      </div>
+      <div class="grid">
+        <label class="check"><input id="shuffleToggle" type="checkbox" checked /><span>Shuffle questions & choices</span></label>
+        <label class="check"><input id="feedbackToggle" type="checkbox" /><span>Immediate feedback</span></label>
+      </div>
+      <div class="row"><button id="startBtn">Start</button></div>
+    </section>
+
+    <section id="screenQuiz" hidden>
+      <div class="muted" id="progressLabel">Question 1 of 1</div>
+      <progress id="progress" value="0" max="1" aria-label="Quiz progress"></progress>
+      <div class="timerRow" id="timerRow" hidden><strong>Time:</strong><span id="timerText">00:00</span></div>
+      <h2 id="questionText" class="question"></h2>
+      <form id="choicesForm" class="choices" aria-labelledby="questionText"></form>
+      <div class="row">
+        <button id="backBtn" type="button">Back</button>
+        <div class="btns"><button id="nextBtn" type="button">Next</button><button id="submitBtn" type="button">Submit</button></div>
+      </div>
+      <section id="feedback" class="feedback" hidden></section>
+    </section>
+
+    <section id="screenResult" hidden>
+      <div id="resultSummary"></div>
+      <div class="row"><button id="reviewBtn">Review answers</button><button id="restartBtn" class="secondary">Restart</button></div>
+      <div id="reviewList" class="reviewList" hidden></div>
+    </section>
+  </main>
+  <script src="app.js" defer></script>
+</body>
+</html>

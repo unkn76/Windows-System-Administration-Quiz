@@ -1,0 +1,2744 @@
+[
+  {
+    "id": "win1",
+    "category": "Windows",
+    "difficulty": "basic",
+    "text": "Which shortcut opens the Task Manager directly in Windows?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Ctrl + Alt + Delete"
+      },
+      {
+        "id": "b",
+        "text": "Ctrl + Shift + Esc"
+      },
+      {
+        "id": "c",
+        "text": "Alt + Tab"
+      },
+      {
+        "id": "d",
+        "text": "Windows + R"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "Ctrl + Shift + Esc opens Task Manager directly, bypassing the Windows Security screen."
+  },
+  {
+    "id": "win2",
+    "category": "Windows",
+    "difficulty": "basic",
+    "text": "Which built-in command displays the IP configuration of a Windows machine?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "netstat"
+      },
+      {
+        "id": "b",
+        "text": "ipconfig"
+      },
+      {
+        "id": "c",
+        "text": "ping"
+      },
+      {
+        "id": "d",
+        "text": "tracert"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "The ipconfig command shows IP, subnet, and gateway information for all interfaces."
+  },
+  {
+    "id": "win3",
+    "category": "Windows",
+    "difficulty": "basic",
+    "text": "What is the default file system used by modern versions of Windows?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "FAT32"
+      },
+      {
+        "id": "b",
+        "text": "exFAT"
+      },
+      {
+        "id": "c",
+        "text": "NTFS"
+      },
+      {
+        "id": "d",
+        "text": "ReFS"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "NTFS is the default file system used for Windows OS drives."
+  },
+  {
+    "id": "win4",
+    "category": "Windows",
+    "difficulty": "basic",
+    "text": "Which tool allows you to view and manage system event logs?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Task Scheduler"
+      },
+      {
+        "id": "b",
+        "text": "Event Viewer"
+      },
+      {
+        "id": "c",
+        "text": "Performance Monitor"
+      },
+      {
+        "id": "d",
+        "text": "Services.msc"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "Event Viewer is the MMC snap-in used to review system and application logs."
+  },
+  {
+    "id": "win5",
+    "category": "Windows",
+    "difficulty": "basic",
+    "text": "Which Windows utility allows you to manage local user accounts?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Computer Management"
+      },
+      {
+        "id": "b",
+        "text": "Device Manager"
+      },
+      {
+        "id": "c",
+        "text": "Disk Cleanup"
+      },
+      {
+        "id": "d",
+        "text": "Control Panel > Power Options"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "Computer Management includes the Local Users and Groups snap-in."
+  },
+  {
+    "id": "ps1",
+    "category": "PowerShell",
+    "difficulty": "intermediate",
+    "text": "Which PowerShell cmdlet lists all running services?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Get-Process"
+      },
+      {
+        "id": "b",
+        "text": "Get-Service"
+      },
+      {
+        "id": "c",
+        "text": "Get-EventLog"
+      },
+      {
+        "id": "d",
+        "text": "Get-Command"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "Get-Service returns all system services with their current state."
+  },
+  {
+    "id": "ps2",
+    "category": "PowerShell",
+    "difficulty": "intermediate",
+    "text": "Which command stops a service named 'Spooler'?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Stop-Process Spooler"
+      },
+      {
+        "id": "b",
+        "text": "Stop-Service Spooler"
+      },
+      {
+        "id": "c",
+        "text": "Disable-Service Spooler"
+      },
+      {
+        "id": "d",
+        "text": "Remove-Service Spooler"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "Stop-Service Spooler stops the Print Spooler service."
+  },
+  {
+    "id": "ps3",
+    "category": "PowerShell",
+    "difficulty": "intermediate",
+    "text": "What is the purpose of the 'Import-Module' cmdlet?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Installs a PowerShell module from the gallery"
+      },
+      {
+        "id": "b",
+        "text": "Loads a module into the current session"
+      },
+      {
+        "id": "c",
+        "text": "Exports module commands to disk"
+      },
+      {
+        "id": "d",
+        "text": "Creates a new module manifest"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "Import-Module loads a module so its cmdlets are available for use in the current session."
+  },
+  {
+    "id": "ps4",
+    "category": "PowerShell",
+    "difficulty": "intermediate",
+    "text": "Which cmdlet displays the last errors in PowerShell?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Get-EventLog"
+      },
+      {
+        "id": "b",
+        "text": "Get-History"
+      },
+      {
+        "id": "c",
+        "text": "$Error"
+      },
+      {
+        "id": "d",
+        "text": "Show-Error"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "The automatic variable $Error contains an array of the most recent error objects."
+  },
+  {
+    "id": "ps5",
+    "category": "PowerShell",
+    "difficulty": "advanced",
+    "text": "Which PowerShell command enables remote management via WinRM?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Enable-PSRemoting"
+      },
+      {
+        "id": "b",
+        "text": "Set-Service WinRM"
+      },
+      {
+        "id": "c",
+        "text": "Start-WinRM"
+      },
+      {
+        "id": "d",
+        "text": "New-PSSession"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "Enable-PSRemoting configures the WinRM service and firewall to allow remote PowerShell sessions."
+  },
+  {
+    "id": "ps6",
+    "category": "PowerShell",
+    "difficulty": "advanced",
+    "multi": true,
+    "text": "Select all valid methods to execute a PowerShell script remotely.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Invoke-Command -ComputerName"
+      },
+      {
+        "id": "b",
+        "text": "Enter-PSSession"
+      },
+      {
+        "id": "c",
+        "text": "Remote Desktop to the machine"
+      },
+      {
+        "id": "d",
+        "text": "New-PSSession + Invoke-Command"
+      }
+    ],
+    "answerIds": [
+      "a",
+      "b",
+      "d"
+    ],
+    "explanation": "Remote PowerShell sessions can use Invoke-Command, Enter-PSSession, or persistent sessions via New-PSSession."
+  },
+  {
+    "id": "srv1",
+    "category": "Windows Server",
+    "difficulty": "intermediate",
+    "text": "Which role provides centralized authentication for Windows networks?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "DHCP Server"
+      },
+      {
+        "id": "b",
+        "text": "Active Directory Domain Services"
+      },
+      {
+        "id": "c",
+        "text": "DNS Server"
+      },
+      {
+        "id": "d",
+        "text": "Print and Document Services"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "Active Directory Domain Services (AD DS) handles authentication and domain management."
+  },
+  {
+    "id": "srv2",
+    "category": "Windows Server",
+    "difficulty": "intermediate",
+    "text": "Which command-line tool adds a computer to a domain?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "net use"
+      },
+      {
+        "id": "b",
+        "text": "netdom join"
+      },
+      {
+        "id": "c",
+        "text": "dsadd"
+      },
+      {
+        "id": "d",
+        "text": "join-domain"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "netdom join allows joining a computer to a domain from the command line."
+  },
+  {
+    "id": "srv3",
+    "category": "Windows Server",
+    "difficulty": "intermediate",
+    "text": "Which DNS record type maps a domain name to an IPv4 address?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "MX"
+      },
+      {
+        "id": "b",
+        "text": "A"
+      },
+      {
+        "id": "c",
+        "text": "CNAME"
+      },
+      {
+        "id": "d",
+        "text": "PTR"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "An A (Address) record maps a hostname to an IPv4 address."
+  },
+  {
+    "id": "srv4",
+    "category": "Windows Server",
+    "difficulty": "intermediate",
+    "text": "Which Windows Server role is responsible for assigning IP addresses automatically?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "DNS"
+      },
+      {
+        "id": "b",
+        "text": "DHCP"
+      },
+      {
+        "id": "c",
+        "text": "NTP"
+      },
+      {
+        "id": "d",
+        "text": "IIS"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "DHCP (Dynamic Host Configuration Protocol) automatically assigns IP addresses and configurations to clients."
+  },
+  {
+    "id": "srv5",
+    "category": "Windows Server",
+    "difficulty": "advanced",
+    "multi": true,
+    "text": "Select all FSMO (Flexible Single Master Operations) roles in Active Directory.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Schema Master"
+      },
+      {
+        "id": "b",
+        "text": "Domain Naming Master"
+      },
+      {
+        "id": "c",
+        "text": "RID Master"
+      },
+      {
+        "id": "d",
+        "text": "DNS Master"
+      }
+    ],
+    "answerIds": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "FSMO roles include Schema Master, Domain Naming Master, RID Master, PDC Emulator, and Infrastructure Master."
+  },
+  {
+    "id": "srv6",
+    "category": "Windows Server",
+    "difficulty": "advanced",
+    "text": "Which PowerShell cmdlet creates a new Active Directory user account?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "New-ADUser"
+      },
+      {
+        "id": "b",
+        "text": "Add-LocalUser"
+      },
+      {
+        "id": "c",
+        "text": "New-UserAccount"
+      },
+      {
+        "id": "d",
+        "text": "Add-ADUser"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "New-ADUser creates a new user object in Active Directory."
+  },
+  {
+    "id": "srv7",
+    "category": "Windows Server",
+    "difficulty": "advanced",
+    "text": "Which tool helps monitor replication status between domain controllers?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "repadmin"
+      },
+      {
+        "id": "b",
+        "text": "dcdiag"
+      },
+      {
+        "id": "c",
+        "text": "netdiag"
+      },
+      {
+        "id": "d",
+        "text": "eventvwr"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "repadmin is used to check replication health and force synchronization between DCs."
+  },
+  {
+    "id": "srv8",
+    "category": "Windows Server",
+    "difficulty": "advanced",
+    "text": "What port is used by LDAP for unencrypted communication?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "389"
+      },
+      {
+        "id": "b",
+        "text": "636"
+      },
+      {
+        "id": "c",
+        "text": "3268"
+      },
+      {
+        "id": "d",
+        "text": "3269"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "LDAP uses TCP port 389 by default; LDAPS (secure) uses 636."
+  },
+  {
+    "id": "srv9",
+    "category": "Windows Server",
+    "difficulty": "advanced",
+    "multi": true,
+    "text": "Which PowerShell cmdlets can query Active Directory objects?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Get-ADUser"
+      },
+      {
+        "id": "b",
+        "text": "Get-ADComputer"
+      },
+      {
+        "id": "c",
+        "text": "Get-ADGroup"
+      },
+      {
+        "id": "d",
+        "text": "Get-LocalUser"
+      }
+    ],
+    "answerIds": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Get-ADUser, Get-ADComputer, and Get-ADGroup are all part of the ActiveDirectory module."
+  },
+  {
+    "id": "sec1",
+    "category": "Security",
+    "difficulty": "intermediate",
+    "text": "Which tool can enforce password complexity and account lockout policies?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Local Security Policy"
+      },
+      {
+        "id": "b",
+        "text": "Registry Editor"
+      },
+      {
+        "id": "c",
+        "text": "Task Manager"
+      },
+      {
+        "id": "d",
+        "text": "Performance Monitor"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "Local Security Policy (secpol.msc) enforces account and password policies."
+  },
+  {
+    "id": "sec2",
+    "category": "Security",
+    "difficulty": "advanced",
+    "text": "Which Windows feature isolates system processes to protect against kernel-level malware?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "User Account Control"
+      },
+      {
+        "id": "b",
+        "text": "Windows Sandbox"
+      },
+      {
+        "id": "c",
+        "text": "Virtualization-Based Security (VBS)"
+      },
+      {
+        "id": "d",
+        "text": "Defender SmartScreen"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "VBS uses hardware virtualization to isolate critical system processes."
+  },
+  {
+    "id": "sec3",
+    "category": "Security",
+    "difficulty": "advanced",
+    "text": "Which PowerShell cmdlet can be used to audit file permissions recursively?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Get-Acl"
+      },
+      {
+        "id": "b",
+        "text": "icacls"
+      },
+      {
+        "id": "c",
+        "text": "Get-ItemProperty"
+      },
+      {
+        "id": "d",
+        "text": "Get-FileHash"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "Get-Acl retrieves Access Control Lists for files and directories."
+  },
+  {
+    "id": "ad1",
+    "category": "Active Directory",
+    "difficulty": "intermediate",
+    "text": "Which command-line tool can verify domain controller replication and diagnose AD issues?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "repadmin"
+      },
+      {
+        "id": "b",
+        "text": "dcdiag"
+      },
+      {
+        "id": "c",
+        "text": "netdiag"
+      },
+      {
+        "id": "d",
+        "text": "ipconfig"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "dcdiag analyzes the state of domain controllers and reports AD health issues."
+  },
+  {
+    "id": "ad2",
+    "category": "Active Directory",
+    "difficulty": "intermediate",
+    "text": "Which AD object type represents network resources such as printers or computers?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Container"
+      },
+      {
+        "id": "b",
+        "text": "User"
+      },
+      {
+        "id": "c",
+        "text": "Computer"
+      },
+      {
+        "id": "d",
+        "text": "Group"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "Computer objects represent machines joined to the domain."
+  },
+  {
+    "id": "ad3",
+    "category": "Active Directory",
+    "difficulty": "advanced",
+    "text": "Which protocol does Active Directory use for authentication?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "NTLM"
+      },
+      {
+        "id": "b",
+        "text": "RADIUS"
+      },
+      {
+        "id": "c",
+        "text": "Kerberos"
+      },
+      {
+        "id": "d",
+        "text": "TACACS+"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "Kerberos is the primary authentication protocol used by Active Directory since Windows 2000."
+  },
+  {
+    "id": "ad4",
+    "category": "Active Directory",
+    "difficulty": "advanced",
+    "text": "Which PowerShell cmdlet retrieves domain controller information from Active Directory?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Get-ADComputer"
+      },
+      {
+        "id": "b",
+        "text": "Get-ADDomainController"
+      },
+      {
+        "id": "c",
+        "text": "Get-ADDomain"
+      },
+      {
+        "id": "d",
+        "text": "Get-ADForest"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "Get-ADDomainController lists domain controllers and their properties in the domain."
+  },
+  {
+    "id": "ad5",
+    "category": "Active Directory",
+    "difficulty": "advanced",
+    "multi": true,
+    "text": "Which of the following are Active Directory database and log file names by default?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "ntds.dit"
+      },
+      {
+        "id": "b",
+        "text": "edb.log"
+      },
+      {
+        "id": "c",
+        "text": "boot.ini"
+      },
+      {
+        "id": "d",
+        "text": "sysvol"
+      }
+    ],
+    "answerIds": [
+      "a",
+      "b"
+    ],
+    "explanation": "The AD database is stored in ntds.dit, and transaction logs use edb.log files."
+  },
+  {
+    "id": "ad6",
+    "category": "Active Directory",
+    "difficulty": "advanced",
+    "text": "Where is the SYSVOL folder replicated between domain controllers?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "C:\\\\Windows\\\\SYSVOL"
+      },
+      {
+        "id": "b",
+        "text": "C:\\\\Windows\\\\NTDS"
+      },
+      {
+        "id": "c",
+        "text": "C:\\\\ProgramData\\\\AD"
+      },
+      {
+        "id": "d",
+        "text": "C:\\\\Windows\\\\PolicyStore"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "SYSVOL contains logon scripts and group policy templates, replicated via DFS-R between domain controllers."
+  },
+  {
+    "id": "gpo1",
+    "category": "Group Policy",
+    "difficulty": "intermediate",
+    "text": "Which MMC snap-in is used to manage Group Policy Objects in a domain?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "gpedit.msc"
+      },
+      {
+        "id": "b",
+        "text": "gpmc.msc"
+      },
+      {
+        "id": "c",
+        "text": "secpol.msc"
+      },
+      {
+        "id": "d",
+        "text": "mmc.exe /gp"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "The Group Policy Management Console (gpmc.msc) manages GPOs across the domain."
+  },
+  {
+    "id": "gpo2",
+    "category": "Group Policy",
+    "difficulty": "intermediate",
+    "text": "Which command refreshes Group Policy settings on a client immediately?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "gpupdate /force"
+      },
+      {
+        "id": "b",
+        "text": "gpresult /r"
+      },
+      {
+        "id": "c",
+        "text": "gprefresh"
+      },
+      {
+        "id": "d",
+        "text": "gpapply"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "gpupdate /force forces immediate application of all Group Policies."
+  },
+  {
+    "id": "gpo3",
+    "category": "Group Policy",
+    "difficulty": "intermediate",
+    "text": "In which order are Group Policies applied?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Site \u2192 Domain \u2192 OU"
+      },
+      {
+        "id": "b",
+        "text": "Domain \u2192 OU \u2192 Site"
+      },
+      {
+        "id": "c",
+        "text": "OU \u2192 Domain \u2192 Site"
+      },
+      {
+        "id": "d",
+        "text": "Site \u2192 OU \u2192 Domain"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "Policies apply in the order: Local, Site, Domain, then Organizational Unit (LSDOU)."
+  },
+  {
+    "id": "gpo4",
+    "category": "Group Policy",
+    "difficulty": "advanced",
+    "text": "What is the default refresh interval for Group Policy on domain-joined computers?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "15 minutes"
+      },
+      {
+        "id": "b",
+        "text": "30 minutes"
+      },
+      {
+        "id": "c",
+        "text": "90 minutes"
+      },
+      {
+        "id": "d",
+        "text": "120 minutes"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "Group Policy refreshes every 90 minutes with a random offset of 0\u201330 minutes."
+  },
+  {
+    "id": "gpo5",
+    "category": "Group Policy",
+    "difficulty": "advanced",
+    "multi": true,
+    "text": "Which Group Policy tools can display Resultant Set of Policy (RSoP) data?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "gpresult /r"
+      },
+      {
+        "id": "b",
+        "text": "Group Policy Results Wizard"
+      },
+      {
+        "id": "c",
+        "text": "Event Viewer"
+      },
+      {
+        "id": "d",
+        "text": "RSOP.msc"
+      }
+    ],
+    "answerIds": [
+      "a",
+      "b",
+      "d"
+    ],
+    "explanation": "gpresult, RSoP.msc, and the Group Policy Results Wizard can show which GPOs apply to a user or computer."
+  },
+  {
+    "id": "net1",
+    "category": "Networking",
+    "difficulty": "intermediate",
+    "text": "Which command can test DNS name resolution on a Windows system?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "ping"
+      },
+      {
+        "id": "b",
+        "text": "nslookup"
+      },
+      {
+        "id": "c",
+        "text": "tracert"
+      },
+      {
+        "id": "d",
+        "text": "ipconfig /flushdns"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "nslookup queries DNS servers to verify name resolution."
+  },
+  {
+    "id": "net2",
+    "category": "Networking",
+    "difficulty": "intermediate",
+    "text": "Which command clears the DNS cache on a Windows client?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "ipconfig /renew"
+      },
+      {
+        "id": "b",
+        "text": "ipconfig /flushdns"
+      },
+      {
+        "id": "c",
+        "text": "net stop dns"
+      },
+      {
+        "id": "d",
+        "text": "netsh winsock reset"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "ipconfig /flushdns clears the local DNS resolver cache."
+  },
+  {
+    "id": "net3",
+    "category": "Networking",
+    "difficulty": "advanced",
+    "text": "Which tool traces the route packets take to a remote host?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "ping"
+      },
+      {
+        "id": "b",
+        "text": "netstat"
+      },
+      {
+        "id": "c",
+        "text": "tracert"
+      },
+      {
+        "id": "d",
+        "text": "pathping"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "tracert shows each hop between the source and destination host."
+  },
+  {
+    "id": "net4",
+    "category": "Networking",
+    "difficulty": "advanced",
+    "text": "What does the command 'netsh int ip reset' do?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Flushes DNS cache"
+      },
+      {
+        "id": "b",
+        "text": "Resets TCP/IP stack to default"
+      },
+      {
+        "id": "c",
+        "text": "Releases IP address"
+      },
+      {
+        "id": "d",
+        "text": "Disables IPv6"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "netsh int ip reset resets TCP/IP configuration back to factory defaults."
+  },
+  {
+    "id": "net5",
+    "category": "Networking",
+    "difficulty": "advanced",
+    "multi": true,
+    "text": "Select all commands useful for diagnosing DHCP-related issues.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "ipconfig /renew"
+      },
+      {
+        "id": "b",
+        "text": "ipconfig /release"
+      },
+      {
+        "id": "c",
+        "text": "nslookup"
+      },
+      {
+        "id": "d",
+        "text": "Get-DhcpServerv4Scope"
+      }
+    ],
+    "answerIds": [
+      "a",
+      "b",
+      "d"
+    ],
+    "explanation": "ipconfig /release and /renew test client-side DHCP, while Get-DhcpServerv4Scope shows server scopes."
+  },
+  {
+    "id": "net6",
+    "category": "Networking",
+    "difficulty": "advanced",
+    "text": "Which PowerShell cmdlet retrieves information about network adapters?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Get-NetAdapter"
+      },
+      {
+        "id": "b",
+        "text": "Get-NetIPConfiguration"
+      },
+      {
+        "id": "c",
+        "text": "Get-Interface"
+      },
+      {
+        "id": "d",
+        "text": "Get-AdapterStatus"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "Get-NetAdapter provides adapter names, MAC addresses, and statuses."
+  },
+  {
+    "id": "net7",
+    "category": "Networking",
+    "difficulty": "advanced",
+    "text": "What is the default lease duration for DHCP on a Windows Server?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "4 hours"
+      },
+      {
+        "id": "b",
+        "text": "8 hours"
+      },
+      {
+        "id": "c",
+        "text": "24 hours"
+      },
+      {
+        "id": "d",
+        "text": "7 days"
+      }
+    ],
+    "answerId": "d",
+    "explanation": "Windows DHCP server sets a default lease time of 8 days (7 days visible to users)."
+  },
+  {
+    "id": "psa1",
+    "category": "PowerShell Automation",
+    "difficulty": "advanced",
+    "text": "Which PowerShell cmdlet allows you to schedule recurring tasks directly in PowerShell?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "New-ScheduledTask"
+      },
+      {
+        "id": "b",
+        "text": "Register-ScheduledTask"
+      },
+      {
+        "id": "c",
+        "text": "Invoke-ScheduledTask"
+      },
+      {
+        "id": "d",
+        "text": "Start-ScheduledJob"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "Register-ScheduledTask creates and registers a scheduled task for execution based on triggers."
+  },
+  {
+    "id": "psa2",
+    "category": "PowerShell Automation",
+    "difficulty": "advanced",
+    "text": "What is the purpose of PowerShell profiles (e.g., $PROFILE)?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "They store user credentials for scripts"
+      },
+      {
+        "id": "b",
+        "text": "They define startup configuration, aliases, and functions"
+      },
+      {
+        "id": "c",
+        "text": "They log script outputs"
+      },
+      {
+        "id": "d",
+        "text": "They store PowerShell history"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "$PROFILE files let you customize the PowerShell environment by defining functions, variables, and aliases at startup."
+  },
+  {
+    "id": "psa3",
+    "category": "PowerShell Automation",
+    "difficulty": "advanced",
+    "multi": true,
+    "text": "Which features make PowerShell ideal for automation?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Pipeline object passing"
+      },
+      {
+        "id": "b",
+        "text": "Cross-platform support"
+      },
+      {
+        "id": "c",
+        "text": "Compiled execution only"
+      },
+      {
+        "id": "d",
+        "text": "Access to .NET Framework"
+      }
+    ],
+    "answerIds": [
+      "a",
+      "b",
+      "d"
+    ],
+    "explanation": "PowerShell automation is powerful due to object-based pipelines, .NET integration, and cross-platform scripting in PowerShell 7+."
+  },
+  {
+    "id": "psa4",
+    "category": "PowerShell Automation",
+    "difficulty": "advanced",
+    "text": "What does the 'Set-ExecutionPolicy RemoteSigned' command do?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Blocks all scripts from running"
+      },
+      {
+        "id": "b",
+        "text": "Allows only digitally signed scripts to run"
+      },
+      {
+        "id": "c",
+        "text": "Allows local scripts to run and requires signatures for remote ones"
+      },
+      {
+        "id": "d",
+        "text": "Allows all scripts to run without restriction"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "RemoteSigned allows local scripts to run freely but requires signatures for scripts downloaded from the Internet."
+  },
+  {
+    "id": "psa5",
+    "category": "PowerShell Automation",
+    "difficulty": "advanced",
+    "text": "Which cmdlet securely stores credentials for use in PowerShell automation?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Export-CliXml"
+      },
+      {
+        "id": "b",
+        "text": "ConvertTo-SecureString"
+      },
+      {
+        "id": "c",
+        "text": "Get-Credential"
+      },
+      {
+        "id": "d",
+        "text": "Protect-String"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "Get-Credential securely prompts for credentials and stores them as PSCredential objects."
+  },
+  {
+    "id": "psa6",
+    "category": "PowerShell Automation",
+    "difficulty": "advanced",
+    "text": "Which parameter allows a PowerShell function to accept pipeline input?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "[CmdletBinding()]"
+      },
+      {
+        "id": "b",
+        "text": "ValueFromPipeline"
+      },
+      {
+        "id": "c",
+        "text": "SupportsShouldProcess"
+      },
+      {
+        "id": "d",
+        "text": "PipelineInputEnabled"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "Parameters marked with ValueFromPipeline accept input from PowerShell pipelines."
+  },
+  {
+    "id": "secA1",
+    "category": "Security Hardening",
+    "difficulty": "advanced",
+    "text": "Which Windows feature helps prevent unauthorized code from running in kernel mode?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Secure Boot"
+      },
+      {
+        "id": "b",
+        "text": "AppLocker"
+      },
+      {
+        "id": "c",
+        "text": "BitLocker"
+      },
+      {
+        "id": "d",
+        "text": "Windows Sandbox"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "Secure Boot verifies kernel and bootloader integrity to prevent rootkits."
+  },
+  {
+    "id": "secA2",
+    "category": "Security Hardening",
+    "difficulty": "advanced",
+    "text": "Which policy can restrict which applications users can run?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Windows Defender Application Control"
+      },
+      {
+        "id": "b",
+        "text": "User Account Control"
+      },
+      {
+        "id": "c",
+        "text": "Windows Hello for Business"
+      },
+      {
+        "id": "d",
+        "text": "Credential Guard"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "WDAC (and older AppLocker) enforce allow/block rules for executables and scripts."
+  },
+  {
+    "id": "secA3",
+    "category": "Security Hardening",
+    "difficulty": "advanced",
+    "text": "Which tool encrypts entire Windows drives, including system drives?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "AppLocker"
+      },
+      {
+        "id": "b",
+        "text": "BitLocker"
+      },
+      {
+        "id": "c",
+        "text": "EFS"
+      },
+      {
+        "id": "d",
+        "text": "VeraCrypt"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "BitLocker encrypts entire drives and integrates with TPM for key protection."
+  },
+  {
+    "id": "secA4",
+    "category": "Security Hardening",
+    "difficulty": "advanced",
+    "multi": true,
+    "text": "Select all Windows Defender features that support system hardening.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Exploit Protection"
+      },
+      {
+        "id": "b",
+        "text": "Controlled Folder Access"
+      },
+      {
+        "id": "c",
+        "text": "Credential Guard"
+      },
+      {
+        "id": "d",
+        "text": "Defender SmartScreen"
+      }
+    ],
+    "answerIds": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "explanation": "All listed features are part of Windows Defender's security hardening suite."
+  },
+  {
+    "id": "secA5",
+    "category": "Security Hardening",
+    "difficulty": "advanced",
+    "text": "Which Windows security feature stores secrets in a virtualized, isolated environment?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Windows Hello"
+      },
+      {
+        "id": "b",
+        "text": "Credential Guard"
+      },
+      {
+        "id": "c",
+        "text": "Defender Firewall"
+      },
+      {
+        "id": "d",
+        "text": "Windows Sandbox"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "Credential Guard isolates and protects LSASS secrets using virtualization-based security."
+  },
+  {
+    "id": "secA6",
+    "category": "Security Hardening",
+    "difficulty": "advanced",
+    "text": "Which PowerShell cmdlet enables BitLocker encryption on a drive?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Enable-BitLocker"
+      },
+      {
+        "id": "b",
+        "text": "Protect-Drive"
+      },
+      {
+        "id": "c",
+        "text": "Set-Encryption"
+      },
+      {
+        "id": "d",
+        "text": "Secure-Volume"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "Enable-BitLocker activates BitLocker on a volume and can save recovery keys."
+  },
+  {
+    "id": "secA7",
+    "category": "Security Hardening",
+    "difficulty": "advanced",
+    "text": "Which PowerShell cmdlet audits system update compliance via Windows Update?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Get-WindowsUpdateLog"
+      },
+      {
+        "id": "b",
+        "text": "Get-HotFix"
+      },
+      {
+        "id": "c",
+        "text": "Get-WindowsUpdate"
+      },
+      {
+        "id": "d",
+        "text": "Get-EventLog -LogName Security"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "Get-HotFix lists all installed Windows updates for compliance verification."
+  },
+  {
+    "id": "secA8",
+    "category": "Security Hardening",
+    "difficulty": "advanced",
+    "multi": true,
+    "text": "Select all practices recommended for securing PowerShell in enterprise environments.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Enable script block logging"
+      },
+      {
+        "id": "b",
+        "text": "Restrict execution policy"
+      },
+      {
+        "id": "c",
+        "text": "Disable transcription logging"
+      },
+      {
+        "id": "d",
+        "text": "Use Constrained Language Mode"
+      }
+    ],
+    "answerIds": [
+      "a",
+      "b",
+      "d"
+    ],
+    "explanation": "Script block logging, execution policy control, and Constrained Language Mode help mitigate script-based attacks."
+  },
+  {
+    "id": "secA9",
+    "category": "Security Hardening",
+    "difficulty": "advanced",
+    "text": "What is the purpose of the 'Secure Boot' feature in UEFI firmware?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "It enforces password policies"
+      },
+      {
+        "id": "b",
+        "text": "It verifies signed bootloaders to prevent tampering"
+      },
+      {
+        "id": "c",
+        "text": "It encrypts boot sector data"
+      },
+      {
+        "id": "d",
+        "text": "It runs BIOS diagnostics"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "Secure Boot validates that only trusted, signed bootloaders and OS components are loaded."
+  },
+  {
+    "id": "secA10",
+    "category": "Security Hardening",
+    "difficulty": "advanced",
+    "text": "Which log file stores Windows Defender Antivirus detections?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "C:\\\\Windows\\\\Logs\\\\Defender.log"
+      },
+      {
+        "id": "b",
+        "text": "Event Viewer \u2192 Applications and Services Logs \u2192 Microsoft \u2192 Windows \u2192 Windows Defender \u2192 Operational"
+      },
+      {
+        "id": "c",
+        "text": "C:\\\\ProgramData\\\\Microsoft\\\\AV\\\\Logs.txt"
+      },
+      {
+        "id": "d",
+        "text": "C:\\\\Windows\\\\System32\\\\drivers\\\\etc\\\\hosts"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "Defender events are stored in the Windows Event Viewer under the Windows Defender Operational log."
+  },
+  {
+    "id": "mon1",
+    "category": "Monitoring",
+    "difficulty": "intermediate",
+    "text": "Which Windows tool provides real-time CPU, memory, and disk usage statistics?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Performance Monitor"
+      },
+      {
+        "id": "b",
+        "text": "Task Manager"
+      },
+      {
+        "id": "c",
+        "text": "Resource Monitor"
+      },
+      {
+        "id": "d",
+        "text": "Event Viewer"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "Task Manager gives a real-time summary of CPU, memory, disk, and network usage."
+  },
+  {
+    "id": "mon2",
+    "category": "Monitoring",
+    "difficulty": "intermediate",
+    "text": "Which Windows utility allows you to create long-term performance counters for analysis?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Resource Monitor"
+      },
+      {
+        "id": "b",
+        "text": "Performance Monitor"
+      },
+      {
+        "id": "c",
+        "text": "System Configuration"
+      },
+      {
+        "id": "d",
+        "text": "Reliability Monitor"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "Performance Monitor allows administrators to create and record data collector sets for detailed performance analysis."
+  },
+  {
+    "id": "mon3",
+    "category": "Monitoring",
+    "difficulty": "intermediate",
+    "text": "Which tool provides a graphical overview of system stability and problem history?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Reliability Monitor"
+      },
+      {
+        "id": "b",
+        "text": "Task Manager"
+      },
+      {
+        "id": "c",
+        "text": "Event Viewer"
+      },
+      {
+        "id": "d",
+        "text": "System Information"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "Reliability Monitor visualizes hardware and software failures to help identify system stability issues."
+  },
+  {
+    "id": "mon4",
+    "category": "Monitoring",
+    "difficulty": "advanced",
+    "multi": true,
+    "text": "Which performance counters are most useful for identifying disk bottlenecks?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Disk Queue Length"
+      },
+      {
+        "id": "b",
+        "text": "Disk Transfers/sec"
+      },
+      {
+        "id": "c",
+        "text": "Memory Available MB"
+      },
+      {
+        "id": "d",
+        "text": "Avg. Disk sec/Transfer"
+      }
+    ],
+    "answerIds": [
+      "a",
+      "b",
+      "d"
+    ],
+    "explanation": "Disk Queue Length, Transfers/sec, and Avg. Disk sec/Transfer indicate disk performance and latency."
+  },
+  {
+    "id": "mon5",
+    "category": "Monitoring",
+    "difficulty": "advanced",
+    "text": "Which PowerShell cmdlet retrieves performance counter data?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Get-Counter"
+      },
+      {
+        "id": "b",
+        "text": "Get-Metric"
+      },
+      {
+        "id": "c",
+        "text": "Measure-Performance"
+      },
+      {
+        "id": "d",
+        "text": "Get-Stat"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "Get-Counter retrieves real-time performance data from local or remote systems."
+  },
+  {
+    "id": "perf1",
+    "category": "Performance Tuning",
+    "difficulty": "intermediate",
+    "text": "Which command opens the System Configuration utility (MSConfig)?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "msconfig"
+      },
+      {
+        "id": "b",
+        "text": "sysconfig"
+      },
+      {
+        "id": "c",
+        "text": "services.msc"
+      },
+      {
+        "id": "d",
+        "text": "taskmgr"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "MSConfig allows you to control startup processes and boot options for troubleshooting."
+  },
+  {
+    "id": "perf2",
+    "category": "Performance Tuning",
+    "difficulty": "intermediate",
+    "text": "What is the recommended paging file size on a Windows Server with 16 GB RAM?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Equal to RAM"
+      },
+      {
+        "id": "b",
+        "text": "1.5\u00d7 the RAM size"
+      },
+      {
+        "id": "c",
+        "text": "Twice the RAM size"
+      },
+      {
+        "id": "d",
+        "text": "No paging file required"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "A paging file of about 1.5\u00d7 RAM is a common baseline; tuning depends on workload."
+  },
+  {
+    "id": "perf3",
+    "category": "Performance Tuning",
+    "difficulty": "advanced",
+    "text": "Which Windows Server feature allows live migration of virtual machines?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Hyper-V Replica"
+      },
+      {
+        "id": "b",
+        "text": "Failover Clustering"
+      },
+      {
+        "id": "c",
+        "text": "Storage Migration"
+      },
+      {
+        "id": "d",
+        "text": "Hyper-V Live Migration"
+      }
+    ],
+    "answerId": "d",
+    "explanation": "Hyper-V Live Migration transfers running virtual machines between hosts without downtime."
+  },
+  {
+    "id": "perf4",
+    "category": "Performance Tuning",
+    "difficulty": "advanced",
+    "multi": true,
+    "text": "Select all common causes of high CPU usage in Windows Servers.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Background Windows Updates"
+      },
+      {
+        "id": "b",
+        "text": "Memory leaks in services"
+      },
+      {
+        "id": "c",
+        "text": "Disk fragmentation"
+      },
+      {
+        "id": "d",
+        "text": "Unoptimized SQL queries"
+      }
+    ],
+    "answerIds": [
+      "a",
+      "b",
+      "d"
+    ],
+    "explanation": "High CPU can result from update scans, inefficient code, or misconfigured workloads like databases."
+  },
+  {
+    "id": "perf5",
+    "category": "Performance Tuning",
+    "difficulty": "advanced",
+    "text": "Which Windows feature automatically tunes power and performance settings for servers?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Balanced Power Plan"
+      },
+      {
+        "id": "b",
+        "text": "High Performance Power Plan"
+      },
+      {
+        "id": "c",
+        "text": "Dynamic Optimization"
+      },
+      {
+        "id": "d",
+        "text": "Processor Throttling"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "Dynamic Optimization in Windows Server and Hyper-V adjusts workloads for best performance and efficiency."
+  },
+  {
+    "id": "dr1",
+    "category": "Disaster Recovery",
+    "difficulty": "intermediate",
+    "text": "Which tool creates system state backups in Windows Server?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "wbadmin"
+      },
+      {
+        "id": "b",
+        "text": "robocopy"
+      },
+      {
+        "id": "c",
+        "text": "ntbackup"
+      },
+      {
+        "id": "d",
+        "text": "BackupExec"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "wbadmin performs command-line backups including system state, useful for AD and OS recovery."
+  },
+  {
+    "id": "dr2",
+    "category": "Disaster Recovery",
+    "difficulty": "intermediate",
+    "text": "Where does Windows Server store Active Directory backups by default?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "C:\\\\Windows\\\\NTDS"
+      },
+      {
+        "id": "b",
+        "text": "C:\\\\Windows\\\\System32\\\\config"
+      },
+      {
+        "id": "c",
+        "text": "C:\\\\Windows\\\\Backup"
+      },
+      {
+        "id": "d",
+        "text": "User-defined path set in wbadmin"
+      }
+    ],
+    "answerId": "d",
+    "explanation": "wbadmin lets you specify the backup destination; it does not store AD backups in system folders."
+  },
+  {
+    "id": "dr3",
+    "category": "Disaster Recovery",
+    "difficulty": "advanced",
+    "text": "Which PowerShell command can export all DHCP settings for disaster recovery?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Export-DhcpServer"
+      },
+      {
+        "id": "b",
+        "text": "Backup-DhcpServer"
+      },
+      {
+        "id": "c",
+        "text": "Export-DhcpConfiguration"
+      },
+      {
+        "id": "d",
+        "text": "Save-DhcpData"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "Export-DhcpServer backs up DHCP scope and lease data for import on recovery."
+  },
+  {
+    "id": "dr4",
+    "category": "Disaster Recovery",
+    "difficulty": "advanced",
+    "multi": true,
+    "text": "Which are valid steps in a bare-metal restore of a Windows Server?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Boot from Windows installation media"
+      },
+      {
+        "id": "b",
+        "text": "Use wbadmin start recovery"
+      },
+      {
+        "id": "c",
+        "text": "Recreate Active Directory manually"
+      },
+      {
+        "id": "d",
+        "text": "Select system image from backup storage"
+      }
+    ],
+    "answerIds": [
+      "a",
+      "b",
+      "d"
+    ],
+    "explanation": "Bare-metal recovery uses installation media and wbadmin to restore from a saved system image."
+  },
+  {
+    "id": "dr5",
+    "category": "Disaster Recovery",
+    "difficulty": "advanced",
+    "text": "Which Windows Server feature provides automatic failover between multiple nodes?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Storage Replica"
+      },
+      {
+        "id": "b",
+        "text": "Failover Clustering"
+      },
+      {
+        "id": "c",
+        "text": "Hyper-V Replica"
+      },
+      {
+        "id": "d",
+        "text": "DFS Replication"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "Failover Clustering provides high availability by automatically switching to healthy nodes during failures."
+  },
+  {
+    "id": "neti1",
+    "category": "Infrastructure Services",
+    "difficulty": "intermediate",
+    "text": "Which role in Windows Server provides automatic IP address assignment to clients?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "DNS Server"
+      },
+      {
+        "id": "b",
+        "text": "DHCP Server"
+      },
+      {
+        "id": "c",
+        "text": "Active Directory Domain Services"
+      },
+      {
+        "id": "d",
+        "text": "File and Storage Services"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "The DHCP Server role automatically assigns IP addresses and configuration parameters to network clients."
+  },
+  {
+    "id": "neti2",
+    "category": "Infrastructure Services",
+    "difficulty": "intermediate",
+    "text": "Which record type in DNS maps a hostname to an IPv6 address?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "A"
+      },
+      {
+        "id": "b",
+        "text": "AAAA"
+      },
+      {
+        "id": "c",
+        "text": "PTR"
+      },
+      {
+        "id": "d",
+        "text": "CNAME"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "An AAAA (quad-A) record maps a hostname to an IPv6 address."
+  },
+  {
+    "id": "neti3",
+    "category": "Infrastructure Services",
+    "difficulty": "intermediate",
+    "text": "Which command can clear the local DNS resolver cache in Windows?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "ipconfig /flushdns"
+      },
+      {
+        "id": "b",
+        "text": "nslookup /clear"
+      },
+      {
+        "id": "c",
+        "text": "netsh dns reset"
+      },
+      {
+        "id": "d",
+        "text": "ping /clearcache"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "ipconfig /flushdns clears the local DNS cache to force re-resolution of domain names."
+  },
+  {
+    "id": "neti4",
+    "category": "Infrastructure Services",
+    "difficulty": "intermediate",
+    "text": "What is the default port used for DNS queries?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "389"
+      },
+      {
+        "id": "b",
+        "text": "443"
+      },
+      {
+        "id": "c",
+        "text": "53"
+      },
+      {
+        "id": "d",
+        "text": "135"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "DNS uses port 53 over UDP for standard queries and TCP for zone transfers."
+  },
+  {
+    "id": "neti5",
+    "category": "Infrastructure Services",
+    "difficulty": "intermediate",
+    "multi": true,
+    "text": "Select all valid DHCP lease states.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Active"
+      },
+      {
+        "id": "b",
+        "text": "Expired"
+      },
+      {
+        "id": "c",
+        "text": "Pending"
+      },
+      {
+        "id": "d",
+        "text": "Declined"
+      }
+    ],
+    "answerIds": [
+      "a",
+      "b",
+      "d"
+    ],
+    "explanation": "DHCP leases can be Active, Expired, or Declined if conflicts are detected."
+  },
+  {
+    "id": "neti6",
+    "category": "Infrastructure Services",
+    "difficulty": "advanced",
+    "text": "Which PowerShell cmdlet exports DHCP configuration for backup?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Export-DhcpServer"
+      },
+      {
+        "id": "b",
+        "text": "Backup-DhcpScope"
+      },
+      {
+        "id": "c",
+        "text": "Export-DhcpConfiguration"
+      },
+      {
+        "id": "d",
+        "text": "Save-DhcpSettings"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "Export-DhcpServer saves DHCP configuration and leases for import on another server."
+  },
+  {
+    "id": "neti7",
+    "category": "Infrastructure Services",
+    "difficulty": "advanced",
+    "text": "Which Windows Server feature allows central management of IP address spaces across multiple networks?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "DHCP Failover"
+      },
+      {
+        "id": "b",
+        "text": "IP Address Management (IPAM)"
+      },
+      {
+        "id": "c",
+        "text": "Network Policy Server"
+      },
+      {
+        "id": "d",
+        "text": "Hyper-V Virtual Switch Manager"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "IPAM provides centralized monitoring and management of IP address ranges, DNS, and DHCP servers."
+  },
+  {
+    "id": "neti8",
+    "category": "Infrastructure Services",
+    "difficulty": "advanced",
+    "text": "Which DNS record type maps an IP address to a hostname (reverse lookup)?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "PTR"
+      },
+      {
+        "id": "b",
+        "text": "A"
+      },
+      {
+        "id": "c",
+        "text": "CNAME"
+      },
+      {
+        "id": "d",
+        "text": "NS"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "PTR records are used for reverse DNS lookups (IP to hostname resolution)."
+  },
+  {
+    "id": "neti9",
+    "category": "Infrastructure Services",
+    "difficulty": "advanced",
+    "multi": true,
+    "text": "Select all Windows Server technologies that support fault tolerance.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Failover Clustering"
+      },
+      {
+        "id": "b",
+        "text": "DFS Replication"
+      },
+      {
+        "id": "c",
+        "text": "NIC Teaming"
+      },
+      {
+        "id": "d",
+        "text": "Hyper-V Replica"
+      }
+    ],
+    "answerIds": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "explanation": "All these features improve availability: clustering, DFS replication, NIC teaming, and Hyper-V Replica."
+  },
+  {
+    "id": "neti10",
+    "category": "Infrastructure Services",
+    "difficulty": "advanced",
+    "text": "Which Windows Server feature enables file sharing across multiple servers with fault tolerance?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Distributed File System (DFS)"
+      },
+      {
+        "id": "b",
+        "text": "File Replication Service (FRS)"
+      },
+      {
+        "id": "c",
+        "text": "Storage Spaces"
+      },
+      {
+        "id": "d",
+        "text": "SMB Multichannel"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "DFS allows shared folders to be replicated and accessed from multiple servers under a unified namespace."
+  },
+  {
+    "id": "neti11",
+    "category": "Infrastructure Services",
+    "difficulty": "advanced",
+    "text": "Which command checks the replication health of DFS?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "dfsrdiag replicationstate"
+      },
+      {
+        "id": "b",
+        "text": "dfsutil diag"
+      },
+      {
+        "id": "c",
+        "text": "repadmin /showrepl"
+      },
+      {
+        "id": "d",
+        "text": "net share /check"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "The dfsrdiag tool checks replication state, backlog, and partner sync health for DFS."
+  },
+  {
+    "id": "neti12",
+    "category": "Infrastructure Services",
+    "difficulty": "advanced",
+    "text": "What port does DHCP use for client requests?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "53"
+      },
+      {
+        "id": "b",
+        "text": "67/68"
+      },
+      {
+        "id": "c",
+        "text": "389"
+      },
+      {
+        "id": "d",
+        "text": "443"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "DHCP uses UDP port 67 for server and 68 for client communications."
+  },
+  {
+    "id": "neti13",
+    "category": "Infrastructure Services",
+    "difficulty": "advanced",
+    "multi": true,
+    "text": "Select all features supported by IPAM (IP Address Management).",
+    "choices": [
+      {
+        "id": "a",
+        "text": "DHCP scope monitoring"
+      },
+      {
+        "id": "b",
+        "text": "DNS zone management"
+      },
+      {
+        "id": "c",
+        "text": "Certificate enrollment"
+      },
+      {
+        "id": "d",
+        "text": "IP address utilization tracking"
+      }
+    ],
+    "answerIds": [
+      "a",
+      "b",
+      "d"
+    ],
+    "explanation": "IPAM manages IP address tracking, DHCP scope monitoring, and DNS zone administration."
+  },
+  {
+    "id": "neti14",
+    "category": "Infrastructure Services",
+    "difficulty": "advanced",
+    "text": "What is the role of WINS in older Windows networks?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Resolves NetBIOS names to IP addresses"
+      },
+      {
+        "id": "b",
+        "text": "Resolves FQDNs to IP addresses"
+      },
+      {
+        "id": "c",
+        "text": "Manages DHCP leases"
+      },
+      {
+        "id": "d",
+        "text": "Provides DNSSEC validation"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "WINS (Windows Internet Name Service) resolves NetBIOS names, primarily used before DNS adoption."
+  },
+  {
+    "id": "neti15",
+    "category": "Infrastructure Services",
+    "difficulty": "advanced",
+    "text": "Which PowerShell cmdlet retrieves cluster node information in a failover cluster?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Get-ClusterNode"
+      },
+      {
+        "id": "b",
+        "text": "Get-ClusterStatus"
+      },
+      {
+        "id": "c",
+        "text": "Get-FailoverInfo"
+      },
+      {
+        "id": "d",
+        "text": "Get-ClusterGroup"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "Get-ClusterNode returns information about all nodes in a failover cluster."
+  },
+  {
+    "id": "virt1",
+    "category": "Virtualization",
+    "difficulty": "intermediate",
+    "text": "Which Windows feature enables the creation and management of virtual machines?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Hyper-V"
+      },
+      {
+        "id": "b",
+        "text": "VMware Workstation"
+      },
+      {
+        "id": "c",
+        "text": "VirtualBox"
+      },
+      {
+        "id": "d",
+        "text": "Docker"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "Hyper-V is Microsoft\u2019s native hypervisor built into Windows Server and some editions of Windows 10/11."
+  },
+  {
+    "id": "virt2",
+    "category": "Virtualization",
+    "difficulty": "intermediate",
+    "text": "Which PowerShell cmdlet creates a new virtual machine in Hyper-V?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Add-VM"
+      },
+      {
+        "id": "b",
+        "text": "New-VM"
+      },
+      {
+        "id": "c",
+        "text": "Install-VM"
+      },
+      {
+        "id": "d",
+        "text": "Start-VM"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "New-VM creates a new virtual machine with defined parameters such as name, memory, and VHD path."
+  },
+  {
+    "id": "virt3",
+    "category": "Virtualization",
+    "difficulty": "intermediate",
+    "text": "Which file extension is used by Hyper-V for virtual hard disks?",
+    "choices": [
+      {
+        "id": "a",
+        "text": ".iso"
+      },
+      {
+        "id": "b",
+        "text": ".vhdx"
+      },
+      {
+        "id": "c",
+        "text": ".img"
+      },
+      {
+        "id": "d",
+        "text": ".vmdk"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "Hyper-V uses VHDX files for virtual disks, offering larger capacity and better resilience than older VHD files."
+  },
+  {
+    "id": "virt4",
+    "category": "Virtualization",
+    "difficulty": "advanced",
+    "multi": true,
+    "text": "Select all technologies that support live migration of VMs in Windows Server.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Failover Clustering"
+      },
+      {
+        "id": "b",
+        "text": "Shared Nothing Live Migration"
+      },
+      {
+        "id": "c",
+        "text": "Storage Migration"
+      },
+      {
+        "id": "d",
+        "text": "IPAM Migration"
+      }
+    ],
+    "answerIds": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Hyper-V supports Live Migration (clustered), Shared-Nothing Migration, and Storage Migration for moving running VMs."
+  },
+  {
+    "id": "virt5",
+    "category": "Virtualization",
+    "difficulty": "advanced",
+    "text": "Which Hyper-V feature allows creating checkpoints to save the state of a VM?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Snapshots"
+      },
+      {
+        "id": "b",
+        "text": "Restore Points"
+      },
+      {
+        "id": "c",
+        "text": "Checkpoints"
+      },
+      {
+        "id": "d",
+        "text": "VM States"
+      }
+    ],
+    "answerId": "c",
+    "explanation": "Checkpoints capture the state, data, and configuration of a VM for later restoration."
+  },
+  {
+    "id": "stor1",
+    "category": "Storage",
+    "difficulty": "intermediate",
+    "text": "Which tool manages disks and volumes on Windows servers?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Disk Management (diskmgmt.msc)"
+      },
+      {
+        "id": "b",
+        "text": "Storage Explorer"
+      },
+      {
+        "id": "c",
+        "text": "Device Manager"
+      },
+      {
+        "id": "d",
+        "text": "Event Viewer"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "Disk Management (diskmgmt.msc) allows administrators to create, extend, and format volumes."
+  },
+  {
+    "id": "stor2",
+    "category": "Storage",
+    "difficulty": "intermediate",
+    "text": "Which file system is optimized for large-scale data and resilient storage on Windows Server?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "NTFS"
+      },
+      {
+        "id": "b",
+        "text": "ReFS"
+      },
+      {
+        "id": "c",
+        "text": "exFAT"
+      },
+      {
+        "id": "d",
+        "text": "FAT32"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "ReFS (Resilient File System) provides better integrity, scalability, and fault tolerance for large data volumes."
+  },
+  {
+    "id": "stor3",
+    "category": "Storage",
+    "difficulty": "advanced",
+    "text": "Which Windows Server feature combines multiple disks into a fault-tolerant pool?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Storage Spaces"
+      },
+      {
+        "id": "b",
+        "text": "RAID 0"
+      },
+      {
+        "id": "c",
+        "text": "BitLocker"
+      },
+      {
+        "id": "d",
+        "text": "DFS Replication"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "Storage Spaces aggregates physical disks into a virtual pool supporting mirroring, parity, and resiliency."
+  },
+  {
+    "id": "stor4",
+    "category": "Storage",
+    "difficulty": "advanced",
+    "multi": true,
+    "text": "Which components are part of a Storage Spaces Direct (S2D) deployment?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Local SSDs or HDDs"
+      },
+      {
+        "id": "b",
+        "text": "Cluster Shared Volumes"
+      },
+      {
+        "id": "c",
+        "text": "Failover Clustering"
+      },
+      {
+        "id": "d",
+        "text": "iSCSI Target Server"
+      }
+    ],
+    "answerIds": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "S2D uses local drives in clustered nodes with Cluster Shared Volumes and Failover Clustering for resiliency."
+  },
+  {
+    "id": "stor5",
+    "category": "Storage",
+    "difficulty": "advanced",
+    "text": "Which PowerShell cmdlet creates a new virtual hard disk file?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "New-VHD"
+      },
+      {
+        "id": "b",
+        "text": "Create-Disk"
+      },
+      {
+        "id": "c",
+        "text": "Initialize-Disk"
+      },
+      {
+        "id": "d",
+        "text": "Add-StorageFile"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "New-VHD creates a virtual disk (.vhd or .vhdx) that can be attached to VMs."
+  },
+  {
+    "id": "cloud1",
+    "category": "Azure Hybrid",
+    "difficulty": "intermediate",
+    "text": "Which service enables connecting on-premises Windows Servers to Azure for centralized management?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Azure AD Connect"
+      },
+      {
+        "id": "b",
+        "text": "Azure Arc"
+      },
+      {
+        "id": "c",
+        "text": "Azure Backup"
+      },
+      {
+        "id": "d",
+        "text": "Azure Site Recovery"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "Azure Arc brings hybrid management and policy control for on-premises and multi-cloud Windows servers."
+  },
+  {
+    "id": "cloud2",
+    "category": "Azure Hybrid",
+    "difficulty": "intermediate",
+    "text": "Which tool synchronizes on-premises Active Directory with Azure AD?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Azure AD Join"
+      },
+      {
+        "id": "b",
+        "text": "ADSync / Azure AD Connect"
+      },
+      {
+        "id": "c",
+        "text": "Azure Arc"
+      },
+      {
+        "id": "d",
+        "text": "Cloud Shell"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "Azure AD Connect (ADSync) synchronizes local directory objects to Azure AD for hybrid identity."
+  },
+  {
+    "id": "cloud3",
+    "category": "Azure Hybrid",
+    "difficulty": "advanced",
+    "multi": true,
+    "text": "Select all technologies used for hybrid disaster recovery in Azure.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Azure Backup"
+      },
+      {
+        "id": "b",
+        "text": "Azure Site Recovery"
+      },
+      {
+        "id": "c",
+        "text": "Azure Monitor"
+      },
+      {
+        "id": "d",
+        "text": "Storage Spaces Direct"
+      }
+    ],
+    "answerIds": [
+      "a",
+      "b"
+    ],
+    "explanation": "Azure Backup and Site Recovery provide off-site data protection and VM replication to Azure."
+  },
+  {
+    "id": "cloud4",
+    "category": "Azure Hybrid",
+    "difficulty": "advanced",
+    "text": "Which Azure service provides unified monitoring for Windows Servers and VMs?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Azure Monitor"
+      },
+      {
+        "id": "b",
+        "text": "Azure Sentinel"
+      },
+      {
+        "id": "c",
+        "text": "Azure Backup"
+      },
+      {
+        "id": "d",
+        "text": "Azure Automation"
+      }
+    ],
+    "answerId": "a",
+    "explanation": "Azure Monitor aggregates performance, log, and alert data across on-premises and cloud systems."
+  },
+  {
+    "id": "cloud5",
+    "category": "Azure Hybrid",
+    "difficulty": "advanced",
+    "text": "Which Windows Server feature integrates with Azure for cloud-based backup management?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Windows Server Backup"
+      },
+      {
+        "id": "b",
+        "text": "Azure Backup Agent"
+      },
+      {
+        "id": "c",
+        "text": "System Center Operations Manager"
+      },
+      {
+        "id": "d",
+        "text": "DFS Replication"
+      }
+    ],
+    "answerId": "b",
+    "explanation": "Azure Backup Agent connects Windows Servers directly to Azure Recovery Services Vault for cloud-based backups."
+  }
+]
